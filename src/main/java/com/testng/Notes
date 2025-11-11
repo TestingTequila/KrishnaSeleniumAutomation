@@ -1,0 +1,48 @@
+TDD: Test Driven Development [TestNG/JUnit]
+0. Can run test cases without using main method
+1. Can run multiple test cases in one go
+2. We can selectively run test cases in a specific order
+3. Can generate report
+4. Ignore some test cases and execute rest
+
+TestNG: 3 A's ---> Annotations, Attributes, Assertions
+
+@Annotations:
+  -We use them with methods only
+  @BeforeSuite
+  @BeforeTest
+  @BeforeClass
+  @BeforeMethod   : This annotation will be executed before every test case
+  @Test           : This annotation is used to represent the Test cases
+  @AfterMethod   : This annotation will be executed after every test case
+  @AfterClass
+  @AfterTest
+  @AfterSuite
+  -------------
+  @Parameter
+  @DataProvider
+
+Attributes:
+  -We use Attributes along with annotations
+  Priority
+  Enabled
+  alwaysRun
+  timeout
+  dependsOnMethods
+
+Assertions:
+ -We can use Assertions to validate Test cases
+ -AssertTrue
+ -AssertFalse
+ -AssertEquals
+ -AssertNotEquals
+
+BDD: Behaviour Driven Development[Cucumber]
+
+==========================================================================
+@BeforeMethod: This method will launch browser and enter the url...
+@Test: This is Dummy Code for Login Page....
+@BeforeMethod: This method will launch browser and enter the url...
+@Test: This is Dummy Code for Register Page....
+
+
