@@ -14,7 +14,7 @@ TestNG: 3 A's ---> Annotations, Attributes, Assertions
   @BeforeClass
   @BeforeMethod   : This annotation will be executed before every test case
   @Test           : This annotation is used to represent the Test cases
-  @AfterMethod   : This annotation will be executed after every test case
+  @AfterMethod    : This annotation will be executed after every test case
   @AfterClass
   @AfterTest
   @AfterSuite
